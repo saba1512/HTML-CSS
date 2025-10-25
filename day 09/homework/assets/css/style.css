@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+*{
+    margin: 10px;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.h1_1{
+    text-align: center;
+    color: darkslateblue;
+}
+
+hr{
+    height: 15px;
+    background-color: rgb(0, 217, 255);
+}
+
+.card{
+    width: 350px;
+    margin: 10px auto;
+    border: 1px solid;
+    padding: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    color: rgb(127, 136, 255);
+}
+
+.card_img{
+    width: 300px;
+    /* margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px; */ /* you dont need this */
+    margin: 5px; /* insted use this */
+    border: 3px solid cornflowerblue;
+    border-radius: 4px;
+}
+
+.card_head{
+    text-align: center;
+    margin-top: 3px;
+    color: goldenrod;
+    font-family: "Merriweather", serif;
+}
+
+.card_p{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.card_btn{
+    color: rgb(225, 16, 186);
+    border: 1px solid;
+    border-radius: 2px;
+    /* padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 10px;
+    /* padding-right: 10px; */  /* you dont need this */
+    padding: 2px 10px; /* insted use this */
+    background-color: bisque;
+    text-align: center;
+    border-radius: 3px;
+    display: block;
+    width: 90px;
+    margin: auto;
+}
+
+/* audi */

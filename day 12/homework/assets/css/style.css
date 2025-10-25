@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.logo{
+    font-size: 40px;
+    color: #3b3b3b;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul a{
+    font-size: 18px;
+    color: #3b3b3b;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav ul a:hover{
+    color: #14c75e;
+    padding: 3px 0;
+    border-bottom: #14c75e 2px solid;
+}
+
+.btns button{
+    background-color: transparent;
+    padding: 5px 13px;
+    border: 1px solid #3b3b3b;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.btns button:hover{
+    background-color: #17d164;
+    color: #3b3b3b;
+    border: 1px solid #17d164;
+
+}
+
+hr{
+    margin: 20px auto;
+    width: 90%;
+    border: 0.5px solid #b3b3b3;
+}
+
+/* -------cards-------- */
+
+.container{
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    width: 25%;
+    border: 2px solid #b3b3b3;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px #b3b3b3;
+}
+
+.img{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.container a{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3b3b3b;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.img_tree{
+    background-image: url(../img/tree.jpg);
+}
+
+.container a:hover{
+    color: #391a8f;
+    text-decoration: underline;
+}
+
+.container p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3b3b3b;
+    margin-top: 10px;
+}
+
+.img_flower{
+    background-image: url(../img/flower.jpg);
+}
+
+.img_leaf{
+    background-image: url(../img/leaf.jpg);
+}
+
+.img_land{
+    background-image: url(../img/land.png);
+}
+
+.img_sky{
+    background-image: url(../img/sky.jpg);
+}
+
+.img_sunset{
+    background-image: url(../img/sunset.jpg);
+}
+
+/* ------tree.html------ */
+
+.container_1{
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+.container_1 a{
+    font-size: 25px;
+    color: #3b3b3b;
+    text-decoration: none;
+}
+
+.container_1 a:hover{
+    color: #391a8f;
+    text-decoration: underline;
+}
+
+.img_1_tree{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/tree.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.container_1 h2{
+    font-size: 50px;
+    color: #3b3b3b;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container_1 p{
+    font-size: 15px;
+    color: #3b3b3b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

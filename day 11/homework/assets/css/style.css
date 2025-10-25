@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    max-width: 90%;
+    margin: 50px auto;
+}
+
+.card h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+}
+
+.img{
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    margin-top: 20px;
+    background: url(../img/bmw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+a{
+    width: 70%;
+    margin: auto;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    text-shadow: 5px 5px 10px grey;
+}
+.img_1{
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    margin-top: 20px;
+    background: url(../img/mercedes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.a_1{
+    width: 70%;
+    margin: auto;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.img_2{
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    margin-top: 20px;
+    background: url(../img/audi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.a_2{
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.card_a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px grey;
+}
+
+.card a, .a_1, .a_2{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px grey;
+}
